@@ -1,0 +1,172 @@
+<div class="container">
+
+    <div class="mb-2">
+        <div>
+            <button class="btn btn-outline-primary mb-2 me-2" (click)="isCollapsed = !isCollapsed">Filters</button>
+            <button class="btn btn-outline-secondary mb-2 me-2" (click)="ResetFilters()" [hidden]="!filtering">Reset</button>
+        </div>
+
+        <div [collapse]="isCollapsed" [isAnimated]="true">
+            <div class="border mb-2 shadow-sm" style=" width: 550px;">
+                <form>
+                    <div class="row mx-0">
+
+                        <div class="col">
+                            <small> <b>Language:</b> </small>
+                           
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="typescript"
+                                    (change)="Filter()"
+                                    name="Typescript">
+                                    <label class="form-check-label small">TypeScript</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="java"
+                                    (change)="Filter()"
+                                    name="Java">
+                                    <label class="form-check-label small">Java</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="javaserverpages"
+                                    (change)="Filter()"
+                                    name="JavaServerPages">
+                                    <label class="form-check-label small">Java Server Pages</label>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col">
+                            <small> <b>Framework:</b> </small>
+                          
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="angular"
+                                    (change)="Filter()"
+                                    name="Angular">
+                                     <label class="form-check-label small">Angular</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="bootstrap"
+                                    (change)="Filter()"
+                                    name="Bootstrap">
+                                     <label class="form-check-label small">Bootstrap</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="css"
+                                    (change)="Filter()"
+                                    name="CSS">
+                                     <label class="form-check-label small">CSS</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col">
+                            <small> <b>Database:</b> </small>
+                           
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="firebase"
+                                    (change)="Filter()"
+                                    name="Firebase">
+                                    <label class="form-check-label small">Firebase</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="mongoDB"
+                                    (change)="Filter()"
+                                    name="MongoDB">
+                                    <label class="form-check-label small">MongoDB</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col">
+                            <small> <b>Backend:</b> </small>
+                           
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="apache_tomcat"
+                                    (change)="Filter()"
+                                    name="apache_tomcat">
+                                    <label class="form-check-label small">Apache Tomcat</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="nodejs"
+                                    (change)="Filter()"
+                                    name="nodejs">
+                                    <label class="form-check-label small">NodeJS</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <small> <b>Liberary:</b> </small>
+                           
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" class="form-check-input position-static me-2"
+                                    [(ngModel)]="express"
+                                    (change)="Filter()"
+                                    name="express">
+                                    <label class="form-check-label small">Express JS</label>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                     </div>    
+                </form>
+            </div>
+        </div>
+    </div>
+
+   <div class="row" style="height: fit-content;">
+    <div *ngFor="let projects of projects" class="col-lg-4 col-md-6 mb-4">
+        <app-project-cards [project]="projects"></app-project-cards>
+    </div>
+   </div>
+</div>  
+

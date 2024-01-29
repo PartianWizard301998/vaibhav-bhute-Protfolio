@@ -1,0 +1,58 @@
+<div class="container" style="max-width: 800px;">
+  <h3 class="text-center">Contact us</h3>
+    <div class="row">
+        
+     <div class="col-lg">
+        <div class="text-center">
+            <img src="../../assets/bg-contact1.png" alt="logo" width="400px" height="400px">
+        </div>
+    </div>
+
+
+    <div class="col-lg">
+        <div class="text-left">
+            <div class="contact-container">        
+                <!-- <form id="contact-form"  class="contact-form" #storeFeedback="ngForm" (ngSubmit)="storeToLocal(storeFeedback.value)">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required ngModel>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required ngModel>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required ngModel></textarea>
+                 </div>
+                  <button type="submit" class="submit-btn">Send Message</button>
+                </form> -->
+
+                <form>
+                  <div class="form-group">
+                    <label> <b>Full Name</b> </label>
+                    <input type="text" [(ngModel)]="fullname" [ngModelOptions]="{standalone: true}" class="form-control" id="fullname" placeholder="Enter Name">
+                  </div>
+              
+                  <div class="form-group">
+                    <label> <b>Email</b> </label>
+                    <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="course" placeholder="Enter Name">
+                  </div>
+          
+                  <div class="form-group">
+                      <label> <b>Message</b> </label>
+                      <input type="text" [(ngModel)]="message" [ngModelOptions]="{standalone: true}" class="form-control" id="message" placeholder="Enter Message">
+                    </div>
+          
+                  <button type="submit" class="btn btn-success mt-4" (click)="save()">Submit</button> <br>
+                  
+                </form>
+              </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+ 

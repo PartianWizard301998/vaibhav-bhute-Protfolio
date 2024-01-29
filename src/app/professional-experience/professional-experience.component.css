@@ -1,0 +1,17 @@
+.container{
+    max-width: 1250px;
+    margin-bottom: 30px;
+}
+
+
+.card-body{
+    background-color: #ffffff;
+}
+
+h3{
+    color: #3081D0;
+}
+
+h5{
+    color: #6B240C;
+}

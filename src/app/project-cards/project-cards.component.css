@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.tag{
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.card-header{
+    background-color: #010201;
+    color: #dedede;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Russo One', sans-serif;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h4{
+    margin-top: 8px;
+}
+.card-body{
+   font-size: large;
+   color: #3C0753;
+   border: none;
+   height: fit-content;
+   padding: 8px;
+}
+
+.card-header{
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+}
+.card-footer{
+    background: rgb(34,193,195);
+background: linear-gradient(174deg, rgb(138, 231, 232) 0%, rgba(253,187,45,1) 100%);
+border: none;
+height: fit-content;
+}
+
+.card{
+   max-height: 500px;
+   min-height: 500px;
+}
+
+ 
+
+

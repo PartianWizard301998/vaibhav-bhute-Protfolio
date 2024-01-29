@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Silkscreen&family=Zilla+Slab:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.jumbotron{
+    padding: 0rem 0rem;
+   /* background-image: url('https://img.freepik.com/free-vector/watercolor-emerald-background_23-2150270303.jpg?w=996&t=st=1702997928~exp=1702998528~hmac=bca4ca450bd932cc3cb1408a0ea1a9ccc20bc73e1b914bd46065bc0192d60f74'); */
+   background-color: #e4ebe4;
+}
+
+
+
+.social-icons{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+h1{
+    color: #186F65;
+    font-family: 'Press Start 2P', system-ui;
+}

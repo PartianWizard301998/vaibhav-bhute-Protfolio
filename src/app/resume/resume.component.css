@@ -1,0 +1,15 @@
+accordion-group::ng-deep .btn-link{
+    color: rgb(18, 9, 9);
+}
+
+accordion-group::ng-deep .card-header{
+    background-color: #AFC8AD;
+}
+
+.btn-link{
+    text-decoration: none;
+    font-size: 21PX;
+    font-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    
+}

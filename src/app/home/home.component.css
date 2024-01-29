@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Zilla+Slab:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Silkscreen&family=Zilla+Slab:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* typewriter Text */
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the text is not displayed outside the box */
+    border-right: .15em solid orange; /* Vertical cursor effect */
+    white-space: nowrap; /* Prevents text wrapping */
+    margin: 0; /* Ensures no default margin */
+    padding: 0; /* Ensures no default padding */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; /* Animation */
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Cursor blinking animation */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+
+/*  */
+
+
+.adj{
+    color: #10291bc7;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 90px;
+}
+
+.name{
+    color: #DF826C;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 70px;
+}
+
+
+/* .name{
+  color: #FFAD84;
+
+  font-family: 'Silkscreen', sans-serif;
+} */
+
+h3{
+  /* font-family: 'arial', sans-serif; */
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(208, 18, 151);
+}

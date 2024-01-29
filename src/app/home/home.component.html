@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <!-- About Me -->
+         <div class="col-lg align-middle" style="padding: 10px;">
+             <div class="info">
+                 <h1 class="adj">I am,</h1>
+                <div class="name" style="font-size: 65px;">Vaibhav Bhute;</div>
+                <br>
+                <h3>Software Developer | Cloud Engineer(AWS)</h3>
+             
+                <hr style="color: rgb(254, 150, 23);">
+    
+                 <p class="align-middle" style="font-size: 20px; color: rgb(241, 29, 29);">
+                     Software Engineer with 2.5 years of experience as a Performance Engineer with a demonstrated history of
+                     working in the computer software industry. Skilled in Performance Testing, Android development, and Web
+                     development. Strong engineering professional with a Bachelor of Engineering focused in Computer Science
+                     Engineering from Prof. Ram Meghe Institute of Technology & Research Amravati.                        
+                 </p>
+                 <hr style="color: bisque;">
+             </div>
+         </div>
+         </div>
+</div>
+
+
+
+
+
+<!-- Featured Project -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg" style="max-width: 100;">
+            <div class="text-center">
+                <!-- <app-carousel></app-carousel> -->
+                <h2>Featured Project</h2>
+                <h4>{{featuredProject.name}}</h4>
+            </div>
+        
+            <carousel>
+                <div *ngFor="let picture of featuredProject.pictures">
+                    <slide><img src={{picture}} alt="Slide 1" style="display: block; width: 100%;"></slide>
+                </div>
+            </carousel>
+            <p class="mt-2">{{featuredProject.summary}}</p>
+            <p>Visit the Protfolio Section to learn more!</p>
+        
+        </div>
+    </div>
+</div>

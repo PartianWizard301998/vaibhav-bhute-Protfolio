@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+#prof-sum{
+    background-image: url('../../assets/vaibhabg-remove.png'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.484);
+}
+
+H1{
+    font-size: 80px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.text{
+   
+        text-transform: uppercase;
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family:'Archivo Black', sans-serif;;
+}
+
+  
+
+#featuredProject{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.484);
+}
+
+#project-stats{
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.484);
+}
+.col-2{
+    background-color: rgba(164, 164, 164, 0.26);
+}
+
+h5{
+    color: rgb(0, 169, 45);
+}
+
+#testinomials{
+   
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgba(156, 8, 8, 0.484);
+}
+
+
+.col-2.h1{
+    color: red;
+}

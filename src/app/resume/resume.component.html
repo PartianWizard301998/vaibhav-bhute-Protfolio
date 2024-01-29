@@ -1,0 +1,200 @@
+
+<div class="container">
+    <h1 style="color: gray;">Professional Summery</h1>
+    <div class="text-primary text-left">
+        <p> 
+            The professional experience will always showcase the skill set and the ability of person.
+            Please find few highlights of my career below.
+        </p>
+        <p>
+            <em>
+              Results-driven Performance Engineer with 2.7 years of hands-on experience in optimizing and enhancing the performance of complex software
+              systems. Proven expertise in conducting thorough performance testing, identifying bottlenecks, and implementing strategic solutions to achieve
+              optimal system efficiency. Proficient in utilizing industry-standard tools and methodologies to assess and improve application performance, ensuring
+              seamless user experiences. Adept at collaborating with cross-functional teams to troubleshoot and resolve performance issues, and implementing
+              best practices for scalability. Demonstrated ability to analyze performance metrics, generate comprehensive reports, and provide actionable
+              recommendations for system optimization. Committed to staying current with emerging technologies and continuously enhancing skills to drive
+              innovation in performance engineering.
+              
+            </em>
+        </p>
+    </div>
+</div>
+
+<div class="container text-center">
+    <button class="btn btn-success mb-3 shadow border" (click)="DownloadFile()">Resume PDF Resume</button>
+
+<div class="pb-2">
+    <accordion [isAnimated]="true" class="shadow">
+        <accordion-group [(isOpen)]="isWorkExperienceOpen">
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;">></div>
+                <div class="btn-link">Work-Experience</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isWorkExperienceOpen" style="color: white">></div>
+                    <div *ngIf="isWorkExperienceOpen" style="color: white">v</div>
+                </div>    
+            </button>
+
+            <div style="text-align: left;">
+                <h2 class="mb-0">System Engineer</h2>
+                <h3 class="text-primary">Tata Consultancy Services</h3>
+                <Ul>
+                    <Li>Hands-on experience with Performance Testing of web applications, conducting tests by both Manual
+                        scenarios in Percentage mode and through Goal-oriented scenarios.</Li>
+                    <li>Expertise in using Performance testing tools like HP LoadRunner, Performace Center, and Enterprise Cloud
+                        LoadRunner.</li>    
+                    <li>Extensive knowledge in STLC and SDLC</li>
+                    <li>Extensive experience in baseline, benchmark, load, stress, and endurance testing for performance.</li>
+                    <li>Extensive experience in handling performance testing release activities like Requirement Gathering, Scope
+                            Discussion, Test Plan Planning, Test Execution, Test Analysis, Reporting, and result Presentation</li>
+                    <li>Responsible for Managing test Data, and creating User Scenarios and test Scenarios.</li>
+                    <li>Good With Debugging, Identifying, Adjusting, and Fixing script errors by running it within Vugen</li>       
+                    <li>Extensive experience in using Monitoring tools like AppDynamics, PCF, Openshift Console, and Splunk.
+                        Good hands-on experience in Creating Virtually rich Splunk dashboards.</li>
+                    <li>Took ownership of PCF to open shift migration of Microservices, and Completed the config profiling for 100+
+                        services.</li>    
+                    <Li>Responsible for Completing the Performance Testing and Providing the Performance sign-off for production
+                        Release.</Li>    
+                    <li>Achieved the delivery of a bugless project during the critical testing releases, recognized by the client, Dev
+                        Managers, and Performance Engineering Teams</li>
+                </Ul>
+            </div>
+
+        </accordion-group>
+
+        <accordion-group>
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;">></div>
+                <div class="btn-link">Education</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isEducationOpen" style="color: white">></div>
+                    <div *ngIf="isEducationOpen" style="color: white">v</div>
+                </div>    
+            </button>
+            <div style="text-align: left;">
+                <h2 class="mb-0">Bachelor of Engineering in Computer Science and Engineering</h2>
+            <h3 class="text-primary">Sant Gadge Baba Amravati University</h3>
+            <ul>
+                <li>Graduated from SGB Amravati University in 2020</li>
+                <li>Graduated with 8.08 CGPA</li>
+                <li>Participated in Extra curricular activities such a Conducting Android application Development event and Seminar.</li>
+            </ul>
+            </div>
+        </accordion-group>
+
+        <accordion-group>
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;">></div>
+                <div class="btn-link">Certification</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isCertificationOpen" style="color: white">></div>
+                    <div *ngIf="isCertificationOpen" style="color: white">v</div>
+                </div>    
+            </button>
+            <div style="text-align: left;">
+                <ul>
+                    <li><H5>ISTQB Certified Foundation level Software Tester.</H5></li>
+                    <li><H5>EDCUBA certified Java Programmer</H5></li>
+                    <li><H5>AWS Cloud Practitioner Essentials</H5></li>
+                    <li><H5>DevOps CI/CD for Beginners Udemy</H5></li>
+                </ul>
+            </div>
+        </accordion-group>
+
+        <accordion-group>
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;">></div>
+                <div class="btn-link">Skills</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isSkillsOpen" style="color: white">></div>
+                    <div *ngIf="isSkillsOpen" style="color: white">v</div>
+                </div>    
+            </button>
+            <div class="row" style="text-align: left;">
+            <div class="col">
+                <h5>Programming Languages</h5>
+                <ul>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>C</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Performance Engineering/Testing</h5>
+                <ul>
+                    <li>LoadRunner Enterprise</li>
+                    <li>LoadRunner Cloud</li>
+                    <li>Vugen</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Monitoring Tools</h5>
+                <ul>
+                    <li>AppDynamics</li>
+                    <li>Splunk</li>
+                    <li>Pivotal cloud Foundry(PCF)</li>
+                    <li>OpenShift Console</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Project Management</h5>
+                <ul>
+                    <li>Jira</li>
+                    <li>ServiceNow</li>
+                    <li>Confluence</li>
+                </ul>
+            </div>
+
+            </div>
+
+            <div class="row" style="text-align: left;">
+                <div class="col">
+                    <h5>Web Development</h5>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3 & Bootstrap</li>
+                        <li>Angular</li>
+                    </ul>
+                </div>
+    
+                <div class="col">
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MyDQL</li>
+                        <li>MongoDB</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+    
+                <div class="col">
+                    <h5>Cloud</h5>
+                    <ul>
+                        <li>Amazon Web Services</li>
+                        <li>VMWare Virtulization</li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h5>Andrpid Development</h5>
+                    <ul>
+                        <li>Android Studio</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+    
+                </div>
+
+        </accordion-group>
+
+    </accordion>
+</div>
+   
+</div>
